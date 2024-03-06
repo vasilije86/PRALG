@@ -3,10 +3,8 @@ recenica = "Dosadno mi AAbbCC je na FAX"
 def maxuppper(recenica):
     count = 0
     maxcount = 0
-    maxrijec = ""
-    lista = list()
-    for i in recenica.split(" "):
-        
+    maxrijec = ""      
+    for i in recenica.split(" "):    
         for s in i:
             print(i, s)
             if s.isupper():
@@ -15,5 +13,5 @@ def maxuppper(recenica):
             maxcount = count
             maxrijec = i
         count = 0
-    print(maxrijec, lista)
+    print(maxrijec)
 maxuppper(recenica)
