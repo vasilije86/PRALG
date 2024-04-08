@@ -11,6 +11,6 @@ def load_data(filename):
     
 new_list = load_data("google_stock_data.csv")
 for i in range(3):
-    print(new_list[i])
+    print(new_list[i][1])
 
 
